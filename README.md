@@ -21,10 +21,11 @@
 ### Part C: Train a neural network
 
 - 1) Train Yolov5s (using pretrained weights)
+</br>
+</br>
 
 
-
-Steps 1 and 2: data_preparation.ipynb (Jupyter ntb run on laptop) </br>
+Parts A and B: data_preparation.ipynb (Jupyter ntb run on laptop) </br>
 </br>
 </br>
 </br>
