@@ -32,12 +32,12 @@ Parts A and B: data_preparation.ipynb (Jupyter ntb run on laptop) </br>
 In order to prepare the dataset (Parts A and B)follow these steps:
 
 - 1) From the webside of the data [here](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), download these:</br>
- - [Train dataset](http://ai.stanford.edu/~jkrause/car196/cars_train.tgz)</br>
- - [Test dataset](http://ai.stanford.edu/~jkrause/car196/cars_test.tgz)</br>
- - [Test annotations](http://ai.stanford.edu/~jkrause/car196/cars_test_annos_withlabels.mat) to be used</br>
- - All examples
-   - [Images](http://ai.stanford.edu/~jkrause/car196/car_ims.tgz)</br>
-   - [Bounding Boxes and Labels](http://ai.stanford.edu/~jkrause/car196/cars_annos.mat)</br>
+   - [Train dataset](http://ai.stanford.edu/~jkrause/car196/cars_train.tgz)</br>
+   - [Test dataset](http://ai.stanford.edu/~jkrause/car196/cars_test.tgz)</br>
+   - [Test annotations](http://ai.stanford.edu/~jkrause/car196/cars_test_annos_withlabels.mat) to be used</br>
+   - All examples
+       - [Images](http://ai.stanford.edu/~jkrause/car196/car_ims.tgz)</br>
+       - [Bounding Boxes and Labels](http://ai.stanford.edu/~jkrause/car196/cars_annos.mat)</br>
 
         
 - 2) Prepare the following folder structure:</br>
