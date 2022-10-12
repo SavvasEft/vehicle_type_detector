@@ -25,8 +25,9 @@
 
 
 Steps 1 and 2: data_preparation.ipynb (Jupyter ntb run on laptop) </br>
-
-
+</br>
+</br>
+</br>
 In order to prepare the dataset (Parts A and B)follow these steps:
 
 - 1) From the webside of the data [here](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), download these:</br>
