@@ -1,8 +1,73 @@
+# Identifying Vehicle Types
+
+## Demonstrates:
+
+Object detection / NN training / Data cleaning / Feature engineering / Data-set analysis / Automated checks 
+
+## Objective: 
+
+Develop a model that could accurately identify different types of cars, such as Vans, Cabs, SUVs, Sedans etc.
+
+## Short description:
+
+For this project, I modified a dataset (found ([here](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)) to have the desired classes. I used this to train a NN (YoloV4) to identify car types. The original dataset consisted of images with car models as classes. The two scripts in the repository do the following: 
+
+### 'data_prep. ...'
+- download dataset (!!!! DOWNLOADS ~4Gb of data !!!!)
+- check and correct duplicates
+- correct errors from manual inspection (hard-coded)
+- prepare images with bounding boxes for manual inspection
+(- analyse pre-defined dataset)
+- define new class (vehicle-type)
+- prepare test / train datasets (20/80)
+- prepare format for training YOLOv4
+    (folder structure / txt files / yaml file / transformed bb coordinates)
+
+### 'veh_type_yolo_training.ipynb ...' (in progress...)
+    - train YOLOv4
+    - evaluate results
+
+### 'vehicl_type_predictor.ipynb  ...' (in progress...)
+    - accepts images, detects vehicles and idetifies vehicle type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Car type identifier
 
-## Project Description:
+## Project goal:
 
-- This project aims in training a neural network to identify car types. To achieve this, we used the Cars dataset by Jonathan Krause, Michael Stark, Jia Deng, Li Fei-Fei ([here](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)). After analysis of the dataset, we used examples from it to create a new dataset with new classes. Then we trained Yolo on our custom data to identify car types.
+
+
+
 
 ## Outline:
 
@@ -24,45 +89,6 @@
 </br>
 </br>
 
-
-Parts A and B: data_preparation.ipynb (Jupyter ntb run on laptop) </br>
-</br>
-</br>
-</br>
-In order to prepare the dataset (Parts A and B)follow these steps:
-
-- 1) From the webside of the data [here](https://ai.stanford.edu/~jkrause/cars/car_dataset.html), download these:</br>
-   - [Train dataset](http://ai.stanford.edu/~jkrause/car196/cars_train.tgz)</br>
-   - [Test dataset](http://ai.stanford.edu/~jkrause/car196/cars_test.tgz)</br>
-   - [Test annotations](http://ai.stanford.edu/~jkrause/car196/cars_test_annos_withlabels.mat) to be used</br>
-   - All examples
-       - [Images](http://ai.stanford.edu/~jkrause/car196/car_ims.tgz)</br>
-       - [Bounding Boxes and Labels](http://ai.stanford.edu/~jkrause/car196/cars_annos.mat)</br>
-
-        
-- 2) Prepare the following folder structure:</br>
-
-Data</br>
-&emsp; |\-----test</br>
-&emsp; |&emsp;&emsp;|</br>
-&emsp; |&emsp;(test images) </br>
-&emsp; |</br> 
-&emsp; |\-----train</br>
-&emsp; |&emsp;&emsp;|</br>
-&emsp; |&emsp;(train images)</br> 
-&emsp; |</br> 
-&emsp; |\-----car_ims</br>
-&emsp; |&emsp;&emsp;|</br>
-&emsp; |&emsp;(all examples images) </br>
-&emsp; |</br>
-&emsp; |\-----cars_test_annos_withlabels.mat</br>
-&emsp; |\-----cars_train_annos.mat</br>
-&emsp; |\-----cars_meta.mat</br>
-&emsp; |\-----cars_annos.mat</br>
-
- 
- 
-- 3) Manualy do the changes described in Section "Part A: Data exploration" Subsection 4) Data modifications: Correcting identified errors
+!!! data.prep.ipynb downloads ~4gb of data
 
 
-- 4) Run data_preparation.ipynb</br>
