@@ -28,4 +28,4 @@ For this project, I modified a dataset (found ([here](https://ai.stanford.edu/~j
     - evaluate results
 
 ### 'vehicl_type_predictor.ipynb  ...' (in progress...)
-    - accepts images, detects vehicles and idetifies vehicle type
+    - accepts images, detects vehicles and identifies vehicle type
