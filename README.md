@@ -1,6 +1,6 @@
 # Identifying Vehicle Types
 
-Develop a Neural Network model that can accurately identify different types of vehicles, such as Vans, Cabs, SUVs, Sedans etc.
+In this project, I develop a Neural Network model that can accurately identify different types of vehicles, such as Vans, Cabs, SUVs, Sedans etc.
 ## Demonstrates:
 
 Object detection / NN training / Data cleaning / Feature engineering / Data-set analysis / Automated checks 
