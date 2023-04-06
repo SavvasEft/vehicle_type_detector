@@ -1,13 +1,15 @@
 # Identifying Vehicle Types
 
-In this project, I developed a Neural Network model that can accurately identify different types of vehicles, such as Vans, Cabs, SUVs, Sedans etc.
+This project focuses on evaluating an image dataset, and on how to train a Neural Network to identify accurately different types of vehicles, such as Vans, Cabs, SUVs, Sedans etc.
 ## Demonstrates:
 
-Object detection / NN training / Data cleaning / Feature engineering / Data-set analysis / Automated checks 
+Data-set analysis / Feature engineering / Data cleaning / Automating checks on images 
+NN training / Object detection / Model evaluation 
+
 
 ## Short description:
 
-For this project, I modified a dataset (found [here](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)) to have the desired classes. I used this to train a NN (YoloV4) to identify car types. The original dataset consisted of images with car models as classes. The three scripts in the repository do the following: 
+For this project, I modified a dataset (found [here](https://ai.stanford.edu/~jkrause/cars/car_dataset.html)). This was used to train a NN (YoloV4) to identify car types. The original dataset consisted of images with car models as classes. The three scripts in the repository do the following: 
 
 ### 'data_prep. ...'
 - download dataset (!!!! DOWNLOADS ~4Gb of data !!!!)
