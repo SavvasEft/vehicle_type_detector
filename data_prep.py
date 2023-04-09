@@ -102,10 +102,14 @@ def main():
         if file_name.endswith('.tgz'):
             unzip_file(file_path, destination_folder)
 
-if __name__ == '__main__':
-    if GET_DATA:
-        main()
+# if __name__ == '__main__':
+#     if GET_DATA:
+#         main()
+
+if GET_DATA:
+    main()
     
+
 print("done in %0.3fs." % (time.time() - t0))
 ################################################################################
 ###
@@ -954,7 +958,7 @@ def write_yolo_string_to_file(str,txt_f_name,path):
 
 
 def prepare_labels(df,label_folder_path):
-    for i in range (len(test_f_info_df_v2)):
+    for i in range (len(df)):
         file_name = df['fnames'][i]
         yolo_str = df['yolo_txt_str'][i]
         txt_file_name = file_name.split('.')[0] + '.txt'
