@@ -19,7 +19,7 @@ For this project, I modified a dataset (found [here](https://ai.stanford.edu/~jk
 (- analyse pre-defined dataset)
 - define new class (vehicle-type)
 - prepare test / train datasets (20/80)
-- prepare format for training YOLOv4
+- prepare format for training YOLOv5s
     (folder structure / txt files / yaml file / transformed bb coordinates)
 
 ### 'veh_type_yolo_training.ipynb ...' (in progress...)
