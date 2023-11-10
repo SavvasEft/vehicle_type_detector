@@ -23,7 +23,7 @@ For this project, I modified a dataset (found [here](https://ai.stanford.edu/~jk
     (folder structure / txt files / yaml file / transformed bb coordinates)
 
 ### 'veh_type_yolo_training.ipynb ...' (in progress...)
-    - train YOLOv4 (using pretrained weights)
+    - train YOLOv5s (using pretrained weights)
     - evaluate results
 
 ### 'vehicl_type_predictor.ipynb  ...' (in progress...)
